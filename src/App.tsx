@@ -9,7 +9,7 @@ import './App.css'
 const TULA_CENTER: [number, number] = [37.617348, 54.193122]
 const LIGHT_STYLE_ID = '7a07c1a4-25cf-4390-9dd3-db3a7ba9bb1d'
 const HEATMAP_LAYER_ID = 'tula-dtp-heatmap-layer'
-const LABEL_BACKGROUND_IMAGE = '/label-bg.svg'
+const LABEL_BACKGROUND_IMAGE = `${import.meta.env.BASE_URL}label-bg.svg`
 
 function toMapglPoints(data: FeatureCollection): FeatureCollection<Point, GeoJsonProperties> {
   return {

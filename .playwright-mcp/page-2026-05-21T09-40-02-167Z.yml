@@ -1,0 +1,15 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - button "Тёмная тема" [ref=e5] [cursor=pointer]
+    - button "Скрыть пробки" [ref=e27] [cursor=pointer]
+  - region "Карта ДТП Тулы" [ref=e7]:
+    - generic [ref=e28]:
+      - generic:
+        - generic [ref=e31]:
+          - button [ref=e32] [cursor=pointer]:
+            - img [ref=e33]
+          - button [ref=e35] [cursor=pointer]:
+            - img [ref=e36]
+        - link [ref=e40] [cursor=pointer]:
+          - /url: https://dev.2gis.ru/link_api_map
+          - img [ref=e41]

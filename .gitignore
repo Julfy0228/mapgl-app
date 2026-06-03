@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+.env.local
+src/data/tulskaia-oblast.geojson
 
 # Editor directories and files
 .vscode/*

@@ -1,0 +1,15 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - paragraph [ref=e5]: Лабораторная работа №7
+    - 'heading "MapGL JS API: ДТП в Туле" [level=1] [ref=e6]'
+    - paragraph [ref=e7]: "Вариант 16: карта центрирована на городе Тула, подключён стиль 2ГИС и отображён GeoJSON-слой ДТП в виде тепловой карты."
+    - generic [ref=e8]:
+      - heading "Управление картой" [level=2] [ref=e9]
+      - 'button "Тема: светлая" [ref=e10] [cursor=pointer]'
+      - 'button "Пробки: выключены" [ref=e11] [cursor=pointer]'
+    - generic [ref=e12]:
+      - heading "Данные" [level=2] [ref=e13]
+      - generic [ref=e14]: "1000"
+      - paragraph [ref=e15]: происшествий из выборки dtp-stat.ru для Тульской области
+    - paragraph [ref=e16]: Загрузка карты 2ГИС...
+  - region "Карта ДТП Тулы" [ref=e17]

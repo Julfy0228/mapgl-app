@@ -64,7 +64,6 @@ function addDtpLayers(map: MapglMap) {
       },
     })
   }
-
 }
 
 function createDtpLabels(
